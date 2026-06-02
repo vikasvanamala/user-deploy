@@ -1,0 +1,7 @@
+deployment:
+  replicas: 1
+  imageRepo: vikasvanamala/user
+  imageVersion: v1
+
+service:
+  servicePort: 8080
