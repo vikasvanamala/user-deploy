@@ -1,7 +1,7 @@
 deployment:
   replicas: 1
-  imageRepo: vikasvanamala/user
-  imageVersion: v1
+  imageRepo: 215446237872.dkr.ecr.us-east-1.amazonaws.com/roboshop/user
+  imageVersion: 1.0.0
 
 service:
   servicePort: 8080
